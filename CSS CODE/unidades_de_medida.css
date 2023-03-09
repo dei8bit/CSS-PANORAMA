@@ -1,0 +1,33 @@
+.titulos{
+    font-size: 20px;
+}
+.titulos__h1{
+    font-size: 1em;
+    background-color: turquoise;
+    width: 100vw;
+    height: 100vh;
+
+}
+.titulos__h2{
+    font-size: 2em;
+}
+
+.articulo{
+    padding: 15px;
+    border-radius: 2px;
+    border: hotpink dotted;
+    margin: 30px;
+    overflow: auto;
+    text-align: center;    
+}
+
+.articulo__1{
+background-color: brown;
+padding: 2em;
+}
+
+.articulo__2{
+    background-color: darkblue;    
+    margin: 3em;
+    font-size: 4em;        
+}

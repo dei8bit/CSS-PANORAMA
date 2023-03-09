@@ -1,0 +1,34 @@
+body{ /* Selector de ETIQUETAS*/
+    color:red;
+}
+#subtitulo{ /* Selector de ID*/
+    color: rosybrown;
+}
+.texto{/* Selector de CLASES*/
+    color: slateblue;
+}
+div h2:hover{ /* Selector de pseudoclases  dentro de una etiqueta*/
+    color: darkred;
+}
+h5:hover{ /* Selector de pseudoclases */
+    color: violet;
+}
+[atributaso="valoraso"]{
+    background-color: blue;
+}
+p.especial{ /* Selector de CLASES dentro de ETIQUETAS*/
+    color: teal;
+}
+h5,h6{ /* Selector de varias ETIQUETAS*/
+    color: olivedrab;
+}
+div h2, div h3{ /* Selector de varias ETIQUETA dentro de ETIQUETAS*/
+    color: yellow;
+}
+
+*{/* Selector universal de CSS*/
+    font-size: 25px;
+}
+
+
+

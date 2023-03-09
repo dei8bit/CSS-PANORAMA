@@ -1,0 +1,45 @@
+.conteiner{
+    background-color: #fff;
+    filter: contrast(3);
+}
+.caja{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 90px;
+    border-radius: 50%;
+    filter: blur(7px);    
+}
+.caja:first-child{
+    animation: gotas1 2s alternate-reverse infinite;
+}
+.caja:last-child{
+    animation: gotas2 2s forwards infinite;
+}
+
+@keyframes gotas1 {
+    0%{
+        transform: translate(0);
+    }
+    50%{        
+        background-color: rgb(255, 0, 242);
+    }
+    100%{
+        transform: translate(350px);
+        background-color: black;
+    }   
+}
+
+@keyframes gotas2 {
+    0%{
+        
+    }
+    50%{        
+        background-color: aqua;
+        transform: scale(1.5);
+    }
+    100%{        
+        background-color: black;
+    }   
+}

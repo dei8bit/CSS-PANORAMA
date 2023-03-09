@@ -1,0 +1,31 @@
+.titulo{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1 ;
+    font-weight: 102;
+}
+
+.articulo1{
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+}
+
+.articulo2{
+    background-color: chartreuse;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
+h2{
+    background-color: brown;
+    border-radius: 15px;
+    text-align: center;    
+    display: inline-block;
+    padding: 2em;
+    box-shadow: 20px 30px 50px aqua,20px 30px 50px aqua,20px 30px 50px aqua;
+    text-shadow: 5px 5px 5px darkorange;
+    transform: rotate(10deg);
+
+
+}
+

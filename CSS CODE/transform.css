@@ -1,0 +1,36 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.conteiner{
+    padding: 30px ;
+    background-color:rgb(199, 216, 50) ;
+    margin: 80px;
+    background: #544a7d;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.caja{
+    background: rgba(224, 77, 113, 0.753);
+    height: 150px;
+    width: 150px;   
+    display: flex;                
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(233,8,156,1) 44%, rgba(0,212,255,1) 100%);
+    color: #00A86B;
+    border-radius: 0% 100% 0% 100% / 0% 63% 37% 100% ;
+    
+
+}
+
+
+.caja:hover{
+    
+
+
+}
+b{
+    margin: auto;
+    transform: skew(-35deg);
+}

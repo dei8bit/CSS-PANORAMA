@@ -1,0 +1,45 @@
+.texto::first-line{
+    color: chartreuse;        
+}
+
+.texto::first-letter{
+    color: red;    
+    font-size: 30px;
+    text-shadow: 2px 2px  3px brown;    
+}
+
+input{
+    margin: 5px auto;
+    display: block;
+    background-color: coral;  
+    margin-top: 20px;         
+}
+
+input::placeholder{
+    font-size: 15px;
+    color: fuchsia;
+    text-align: center;     
+}
+
+input::selection{    
+    color: lawngreen;
+    background-color: crimson;         
+}
+
+b::before{
+content: "Que onda guaching:";
+color: deeppink;
+}
+
+b::after{
+    content: "COMO VA TODO ESO?";
+    color: indianred;
+    background-color: lightskyblue;
+    text-shadow: 5px 2px 1.5px blue;
+}
+
+
+
+
+
+

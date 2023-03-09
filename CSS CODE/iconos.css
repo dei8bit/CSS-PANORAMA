@@ -1,0 +1,9 @@
+i:hover{    
+    background-color: aquamarine;
+    padding: 20px 20px;    
+    outline: orange 3px;
+    border: olive 6px;
+    color: orangered;
+    border-radius: 5px;
+    transition: 2s;    
+}

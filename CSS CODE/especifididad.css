@@ -1,0 +1,62 @@
+h1{
+    background-color: rosybrown;
+}
+
+h2{
+    background-color: royalblue !important ; 
+}
+
+#identificador{
+    color: seagreen; 
+}
+
+.clase_h1{     
+    background-color: slateblue;
+}
+
+
+article p:hover{
+    color: red;
+}
+
+p:hover{
+    color: yellow;
+}
+
+h2{
+    background-color: violet;
+}
+
+.clase_h2{
+    background-color: springgreen;
+}
+
+[jeje="droga"]{
+    text-align: center;
+}
+
+
+/* .shea{
+    background-color: green;
+}
+
+.shea:hover{
+    background-color: deeppink;    
+}
+
+[hola="pin"]{
+    color: blue;
+} */
+
+
+
+p{
+    color: indianred;
+}
+
+article p{
+    color: lightseagreen;  
+}
+
+
+

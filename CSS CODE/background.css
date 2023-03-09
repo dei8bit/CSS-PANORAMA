@@ -1,0 +1,43 @@
+*{
+    /* padding: 30px; */
+}
+.conteiner{
+    height: 200px;    
+    background-image: url(https://i.pinimg.com/originals/01/97/38/01973813faf7d7f4539e6296add2fd93.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    padding: 30px;
+    margin: 40px ;    
+}
+
+/* 
+.conteiner{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    background-color: #0fe; 
+    background-color: #02c246fe;
+    background-color: rgb(202, 34, 57);
+    background-color: rgba(202, 34, 57,0.5);
+    background-image: url(nebulosa.jpg);
+    background-image: url(https://i.pinimg.com/originals/01/97/38/01973813faf7d7f4539e6296add2fd93.jpg);
+    background-size: auto;
+    background-size: cover;
+    background-size: contain;
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-clip: border-box;
+    background-clip: content-box;
+    background-clip: padding-box;
+    background-origin: content-box;
+    background-origin: border-box;
+    background-origin: padding-box;
+    background-attachment: scroll;
+    background-attachment: fixed;
+
+    background: coral url('NEBULOSA.jpg') repeat-y center top /100px 100px; Muestra de background como shorthand
+} */
+
+

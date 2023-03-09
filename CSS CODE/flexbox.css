@@ -1,0 +1,24 @@
+.flex-container{
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+  align-items: baseline;
+}
+
+.flex-item{
+    background-color: tomato;
+    border: 2px teal solid;
+    border-radius: 3px;
+    margin: 5px;
+    height: 120px;
+    width: 120px;    
+}
+
+.color1{
+  background-color: darkmagenta;
+
+}
+
+.color2{
+background-color: forestgreen;
+}

@@ -1,0 +1,22 @@
+.text   {
+  text-align: center; 
+  text-decoration: overline ; 
+  /* text-shadow: 3px 4px  5px blueviolet; */
+  /* font-family: 'Shizuru'; */
+  /* letter-spacing: -20px; */
+  user-select:all ;
+}
+
+/* .texto1{
+  background-color: rgb(206, 96, 240);
+  height: 90px;
+  font-size: 30px;
+  direction: rtl;  
+}
+.texto2{
+  background-color: rgb(206, 96, 240);
+  height: 90px;
+  font-size: 30px;
+  direction: ltr;  
+} */
+

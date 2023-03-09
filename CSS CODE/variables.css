@@ -1,0 +1,26 @@
+*{
+    margin: 5px;
+}
+:root{
+    --colorsito1: brown;
+    --colorsito2: chartreuse;
+    --colorsito3:black;
+}
+p{
+    --colorsito3:green;
+    width: 100px;
+    height: 100px;
+    background-color: var(--colorsito3);
+}
+.conteiner1{
+    height: 70px;
+    width: 70px;
+    /* background-color: brown; */
+    background-color: var(--colorsito3);    
+}
+.conteiner2{
+    height: 70px;
+    width: 70px;
+    /* background-color: chartreuse; */
+    background-color: var(--colorsito2);
+}

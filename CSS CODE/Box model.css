@@ -1,0 +1,108 @@
+/* .boxmodel{
+    margin: 15px 40px 25px; 
+    outline: 5px solid green; 
+    border:  yellow   5px solid;
+    border-radius: 5px;
+    padding: 10px 20px 30px;   
+    background-color: chocolate;        
+    height: 150px;
+    width: 180px; 
+    overflow:scroll;        
+} */
+
+/* 
+.padre{
+    height: 250px;
+    width: 250px;
+    background-color: yellowgreen;
+    position: relative;
+    margin: auto ;
+    margin-top: 50px;       
+}
+
+.hijo{
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+    position: relative;
+    top: -20px;
+    left: -15px;
+    z-index: -1;
+} */
+
+.contenedor{
+    position: relative;
+    border: 5px double yellow;
+    margin: 50px auto;
+    height: 450px;
+    width: 450px;
+}
+
+div{
+    display: block;
+    background: chocolate;
+    position: absolute;
+    font-size: 30px;
+    text-align: center;    
+}
+
+div div{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+
+}
+
+
+
+/* .caja1{  
+
+} */
+
+.caja2{
+   right: 0;
+}
+
+.caja3{
+    left: 0;
+    bottom: 0;      
+}
+
+.caja4{
+    right: 0;
+    bottom: 0;       
+} 
+.caja5{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* .boxmodel{
+    border-style: solid;
+    border-color: darkgreen;
+    border-radius: 5px;
+    border-width: 6px;
+}
+
+
+/*
+Estilos de Border.
+Para cualquier tipo de elemento:
+    dotted
+    dashed
+    solid
+    double
+    none
+    hidden
+
+Estos se pueden asignar a elementos tridimensionales, van a mostrarse de cierta forma dependiendo del color indicado
+    groove
+    ridge
+    inset
+    outset
+*/
+
+

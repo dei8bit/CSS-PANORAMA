@@ -1,0 +1,34 @@
+img{
+    width:50%;
+    height: 50%; 
+    
+}
+
+/* DEFAULT IMAGEN: VALORES QUE DEJAN LA IMAGEN EXACTAMENTE COMO ESTABA */ 
+/* div{    
+    filter: blur(0);
+    filter: brightness(1);
+    filter: contrast(1) ;
+    filter:drop-shadow() ;
+    filter:grayscale(0) ;
+    filter:hue-rotate(0 deg  o 360 deg  o 720 deg ) ;
+    filter:invert(0) ;
+    filter: opacity(1);
+    filter: saturate(1);
+    filter: sepia(0);
+} */
+
+
+/* DEFAULT VALUES: Valores que vienen por defecto con la propiedad. */
+/* div{    
+    filter: blur(0);
+    filter: brightness(1);
+    filter: contrast(1) ;
+    filter:drop-shadow() ;
+    filter:grayscale(1) ;
+    filter:hue-rotate(0 deg) ;
+    filter:invert(1);
+    filter: opacity(1);
+    filter: saturate(1);
+    filter: sepia(1);
+} */

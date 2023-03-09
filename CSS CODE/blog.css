@@ -1,0 +1,82 @@
+header{
+    position: sticky;
+    top: 0;
+}
+#titulo{   
+    text-align: center;
+    font-family: 'Bebas Neue';    
+}
+body{
+    margin: 0;
+    background-color: #efefef;    
+}
+
+header{
+    background-color: rgba(137, 43, 226, 0.5);
+    color: red;
+    padding: 10px 10px;
+}
+
+header h1{
+    font-size: 4rem;
+}
+
+.contenedor{
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article{
+    transition: box-shadow 0.5s ease;
+    background-color: rgba(87, 143, 189, 0.473);
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+section article:hover{
+    box-shadow: 0.2rem 0.2rem 1rem violet;
+}
+section article h2,section article p{
+    margin: 1rem;
+}
+
+footer{
+    background-color: slategrey;
+    padding: 3rem;
+    color: yellow;
+}
+
+#comienzo{
+    display: block;  
+    float: left;
+}
+
+#mail{
+    display: block;  
+    float: right;
+}
+
+footer p{
+    margin:  0 auto;
+    text-align: center;
+}
+footer a{
+    transition: color 0.5s ease; 
+}
+
+footer a:link{  
+    color: cyan;
+}
+footer a:visited{ 
+    color: darkmagenta;
+}
+footer a:hover{
+    color: orange;
+} 
+footer a:active{ 
+    color: limegreen;
+}
+
+
+

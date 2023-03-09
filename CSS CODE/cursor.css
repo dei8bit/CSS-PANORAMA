@@ -1,0 +1,17 @@
+*{
+    scroll-behavior:smooth ;
+}
+
+div{
+    font-size: 50px;    
+}
+
+/* .caja{
+    width: 150px;
+    height: 150px;
+    background-color: darkgoldenrod;
+    border: #8b0000 2px solid;
+    border-radius: 25px;
+    cursor: pointer;
+    cursor: row-resize;
+} */

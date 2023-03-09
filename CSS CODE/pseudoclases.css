@@ -1,0 +1,62 @@
+
+/* 
+div{
+    background-color: darkgoldenrod;
+    width: 100px;
+    height: 100px;
+    transition: background-color 2s, width .3s, height 1s; 
+}
+ */
+ /*  Poner .3 es lo mismo que 0.3 */
+
+ div {
+    background-color: darkgoldenrod;
+    width: 100px;
+    height: 100px;
+    transition: all 1s;
+}
+
+div:hover{ /* CSSS */
+    background-color: red;
+    text-align: center;
+    text-shadow: 5px 9px 2px indigo;
+    width: 150px;
+    height: 150px;
+}
+
+.enlace{
+    transition: all 1s;
+}
+
+a:link{
+    color: cyan;
+    background-color: indigo;
+}
+a:visited{
+    color: darkmagenta;
+    background-color: lightseagreen;
+}
+a:hover{
+    color: orange;
+    background-color: mediumvioletred;
+}
+a:active{
+    color: limegreen;
+    background-color: sienna;
+}
+
+input{
+    background-color: seagreen;   
+    display: block; 
+    margin: auto;
+    transition: all 3s;
+    display: block;
+}
+input:focus{ 
+    padding: 15px;
+    outline: 2px blue solid;    
+    background-color: yellow;
+    border: 8px mediumspringgreen double;
+    border-radius: 3px;
+    text-shadow: tomato;    
+}
